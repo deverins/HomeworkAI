@@ -16,7 +16,7 @@ const Header = () => {
             height={0}
           />
         </div>
-        <div className="md:w-auto md:h-auto w-auto h-auto max-sm:w-[120px] max-sm:h-[104px] mt-[22px] lg:w-auto lg:h-auto">
+        <div className=" flex justify-end  mt-[22px] max-sm:w-[200px]">
           <Image
             src={bookIcon}
             alt="logo icon"

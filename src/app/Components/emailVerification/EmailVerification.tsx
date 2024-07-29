@@ -8,6 +8,7 @@ import LiveAnnouncer from "../LiveAnnouncer";
 import HeadingGroup from "../UI/heading/heading-group";
 import Image from "next/image";
 import Header from "../Header";
+import BottomIcon from "../BottomIcon";
 
 const EmailVerification: React.FC<EmailVerificationProps> = ({ email, onResend, onBackToLogin }) => {
   const [announcement, setAnnouncement] = useState("");
@@ -66,6 +67,7 @@ const EmailVerification: React.FC<EmailVerificationProps> = ({ email, onResend, 
         </div>
         <LiveAnnouncer message={announcement} />
       </section>
+      <BottomIcon />
     </>
   );
 };

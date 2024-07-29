@@ -12,7 +12,7 @@ const Page: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col w-full h-screen">
+    <div className="flex flex-col w-full">
       <EmailVerification 
         email="Goody323@gmail.com" 
         onResend={handleResend} 
