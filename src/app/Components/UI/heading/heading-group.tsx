@@ -8,8 +8,8 @@ interface HeadingGroupProps {
 const HeadingGroup: React.FC<HeadingGroupProps> = ({ title, subtitle }) => {
   return (
     <div>
-      <h1 className="text-2xl font-bold mb-2">{title}</h1>
-      <p className="text-gray-500">{subtitle}</p>
+      <h2 className="text-3xl font-bold mb-2 align-middle">{title}</h2>
+      <p className="text-[#9E9D9D] text-sm font-normal align-middle">{subtitle}</p>
     </div>
   );
 };
