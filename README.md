@@ -27,4 +27,6 @@ To get started with **HomeworkAI**, follow these steps:
    ## 🎥 Preview
 
 ![App Preview](https://res.cloudinary.com/dphfgjzit/image/upload/v1722279298/check-email_kctqli.png)
+
+
 ![App Preview](https://res.cloudinary.com/dphfgjzit/image/upload/v1722279425/mobile-check-email_q8uyei.png)
